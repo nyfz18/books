@@ -1,0 +1,51 @@
+.login-box {
+    margin-top: 100px;
+    width: 50%;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 10px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* vertical-align: middle; */
+}
+
+.login-buttons {
+    margin-top: 20px;
+    margin-right: 0px;
+    padding-bottom: 40px;
+}
+
+.spacer-top{
+    padding-top: 30px;
+}
+
+.spacer-bottom{
+    padding-bottom: 30px
+}
+
+.row-spacer{
+    padding-top: 40px;
+}
+ 
+.center {
+    margin: 20%;
+    width: 50%;
+    padding: 10px;
+    align-items: center;
+    /* position: absolute; */
+}
+
+.container-center {
+    display: flex;
+    justify-content: center;
+}
+
+
+.username {
+    padding-bottom: 20px;
+}
+
+
+input {
+    width: 90%;
+}

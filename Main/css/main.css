@@ -1,0 +1,44 @@
+body {
+    font-family: 'EB+Garamond', serif;
+    height: 100%;
+    position: relative;
+  }
+  
+  /* banner css */
+  
+  .navbar {
+    background-color: rgb(90, 115, 97);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .navbar-right {
+    float: right;
+    padding-top: 2%;
+    padding-right: 2%;
+  }
+  
+  .navbar a {
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(90, 115, 97);
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5%;
+  }     
+  
+  .navbar .profile_pic {
+    border-radius: 50%;
+  }
+  
+  .navbar a:hover {
+    background-color: grey;
+  }
+  
+  .navbar #logo {
+    float: left;
+  }
+
+ 

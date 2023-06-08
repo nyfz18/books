@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>BooksBooksBooks!</title>
+
+    <script type="module" src="../js/friend.js" defer></script>
+    <script type="module" src="../js/logout.js" defer></script>
+    <script src="../js/dropdown.js"></script> 
+
+    <!-- <script></script> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="../css/friends.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/dropdown.css">
+
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn"><img class="profile_pic" src="../images/profile_official.png" alt="Logo" width="50px" height="50px"></button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a id="profile_view" href="view_profile.html">View Profile</a>
+                    <a id="account_settings" href="account_settings.html">Edit Profile</a>
+                    <a id="logout" href="#">Logout</a>
+                </div>
+            </div>
+
+            <div class="navbar-right">
+                <a id="my_books" href="my_books.html">MY BOOKS</a>
+                <a id="status" href="status.html">STATUS</a>
+                <a id="friend_list" href="friends.html">FRIENDS</a>
+                <a id="home_page" href="index.html"><img src="../images/owl_logo.png" width="60" height="60" alt="Logo" /></a>
+            </div>
+        </div>>
+
+        <div class = "main"> 
+            <div class = "friends">
+                <div class = "split left">
+                    <div class = "title"> 
+                        <h2> My Friends </h2> 
+                        <div class="list" id="all">
+                            <input type="button" value="View Friends List" id="view_all_button">
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "split right">
+                    <ul class="list-group friend_profiles" id = "friends_list">
+                    </ul> 
+                    
+                    <div class = "new_friend">
+                        <form id = "add_friend">
+                            <label id = "search_friend"> Search for a friend: </label>
+                            <input type="text" id = "friend_name" name = "f_name"> </input>
+                            <button type="update" value = "Enter" id = "add_btn" class="btn btn-danger"> Add </button>   
+                        </form>
+                    <div>
+                </div> 
+            </div>
+
+    </body>
+</html>

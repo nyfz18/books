@@ -1,0 +1,65 @@
+body {
+    display: flex;
+}
+
+.main {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+label {
+    font-size: larger;
+    font-weight: bold;
+}
+
+input {
+    width: 20%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.list-group-item {
+    border: none;
+}
+
+#profile {
+    height: 6em;
+    width: 6em;
+    border-radius: 50%;
+    margin-right: 1%;
+}
+
+/* Split the screen in half */
+.split {
+    margin-top: 10%;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+  }
+  
+  /* Control the left side */
+  .left {
+    position: absolute;
+    margin-left: 5%;
+    width: 60%;
+    left: 0;
+  }
+  
+  /* Control the right side */
+  .right {
+    position: absolute;
+    margin-right: 5%;
+    width: 90%;
+    right: 0;
+  }
+
+  .friend_profiles {
+    margin-top: 4%;
+  }
+
+  .new_friend {
+    margin-top: 7%;
+  }

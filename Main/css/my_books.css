@@ -1,0 +1,75 @@
+.main {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin-left: 2%;
+    margin-top: 12%
+}
+
+.horizontal-scrollable > .row {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+  
+.horizontal-scrollable > .row > .col-xs-4 {
+    display: inline-block;
+    float: none;
+
+}
+
+.welcome {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+} 
+
+.top-genres {
+    margin-top:8%; 
+    position:absolute;
+}
+
+.recently-watched {
+    margin-top: 25%;
+    position:absolute;
+}
+
+.watch-with-friend {
+    margin-top: 47%;
+    margin-bottom: 15%;
+}
+
+.col-xs-4 {
+    width: 500;
+    height: 500;
+}
+
+#col-try {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: #df4759;
+    border-radius: 15px;
+}
+
+.spacer-top{
+    padding-top: 40px;
+}
+
+.button-image {
+    background-image: "../images/profile_official.png";
+    width: 100px;
+    height: 100px;
+
+}
+
+.list {
+    width: 500px;
+    margin-top: 2%;
+    padding: 1%; 
+    /* border-bottom: solid rgb(0, 0, 0); */
+    margin-left: 5%;
+    
+}

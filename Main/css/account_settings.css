@@ -1,0 +1,116 @@
+.profilepic {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #111;
+  }
+  
+  .profilepic:hover .profilepic__content {
+    opacity: 1;
+  }
+  
+  .profilepic:hover .profilepic__image {
+    opacity: .5;
+  }
+  
+  .change_profile_pic {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    transition: opacity .2s ease-in-out;
+  }
+  
+  .profile {
+    display: grid;
+    grid-template-columns: [line1] 50% [line2] 50% [line3];
+    grid-template-rows: auto;
+    row-gap: 80px;
+    grid-template-areas:
+      "a b"
+      "a c";
+  }
+  
+  .item-a {
+    grid-area: a;
+    padding: 20% 0% 0% 5%;
+  }
+  
+  .item-b {
+    grid-area: b;
+    padding: 15% 0% 10% 0%;
+  }
+  
+  .item-c {
+    grid-area: c;
+    padding: 0% 0% 0% 0%;
+  }
+  
+  .profile_content .header {
+    color: white; 
+    font-weight: normal;
+    text-align: center;
+    font-size: large;
+    background-color: rgb(90, 115, 97);
+    /* border: 2px solid yellow;
+    border-radius: 50px; */
+    padding: 1% 30% 1% 30%;
+    width: 89%
+  }
+  
+  /* #read_history, */
+  #top_genres {
+    padding: 1% 1% 1% 1%;
+    width: 89%
+  }
+  
+  .item-b p,
+  .item-c p {
+    padding: 1%;
+    border-bottom: solid red;
+    width: 89%
+  }
+  
+  #email, 
+  #reset_password,
+  .description {
+    padding: 1% 0% 10% 0%;
+    font-size: large;
+  }
+
+ .change_profile_pic .description {
+    padding: 1% 0% 1% 0%;
+    font-size: large;
+  }
+
+  #picture {
+    padding-bottom: 1%;
+  }
+
+  #remove_account_button {
+    color: white;
+    background-color: rgb(203, 28, 28);
+    border-radius: 5%;
+    border-style: hidden;
+    padding: 5px 15px 5px 15px;
+  }
+
+  #books_input,
+  #genre_input {
+    color: white;
+    background-color: rgb(203, 28, 28);
+    border-radius: 5%;
+    border-style: hidden;
+    padding: 5px 15px 5px 15px;
+    width: 20%;
+    margin-left: 35%;
+    display: flex;
+    justify-content: center;
+  }
