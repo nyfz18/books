@@ -1,0 +1,31 @@
+.selections {
+    padding-left: 5%;
+    padding-top: 10%;
+  }
+  
+  .options {
+    padding-top: 1%;
+  }
+  
+  .selections legend {
+    padding-top: 5%;
+  }
+  
+  .selections label,
+  .selections legend {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .red_text {
+    color: red;
+  }
+  
+  #yes,
+  #no {
+    color: white;
+    background-color: rgb(203, 28, 28);
+    border-radius: 5%;
+    border-style: hidden;
+    padding: 5px 15px 5px 15px;
+  }

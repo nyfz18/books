@@ -1,0 +1,39 @@
+label {
+    font-size: larger;
+    font-weight: bold;
+}
+
+input {
+    width: 90%;
+}
+
+.vr {
+  width: 2%;;
+}
+
+/* Split the screen in half */
+.split {
+    position: absolute;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 10%;
+  }
+  
+  /* Control the left side */
+  .left {
+    margin-left: 5%;
+    width: 60%;
+    left: 0;
+  }
+  
+  /* Control the right side */
+  .right {
+    margin-right: 5%;
+    width: 30%;
+    right: 0;
+  }
+
+  .text {
+    margin-left: 5%;
+  }
