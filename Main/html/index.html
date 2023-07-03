@@ -29,7 +29,7 @@
                 <div id="myDropdown" class="dropdown-content">
                     <a id="profile_view" href="view_profile.html">View Profile</a>
                     <a id="account_settings" href="account_settings.html">Edit Profile</a>
-                    <a id="logout" href="#">Logout</a>
+                    <a id="logout" href="index.html">Logout</a>
                 </div>
             </div>
 
@@ -40,30 +40,29 @@
                 <a id="home_page" href="index.html"><img src="../images/owl_logo.png" width="60" height="60" alt="Logo" /></a>
             </div>
         </div>>
-
-        <div class="container-fluid d-flex justify-content-center">
-
-            <div class="login-box">
-                <div id="input-box" class="row text-center spacer-top spacer-bottom">
-                    <div class="col text-center"><b>USERNAME</b></div>
-                    <input type="text" placeholder="Enter Username" name="uname" id="uname" required>
-
-                    <div class="spacer-top col text-center"><b>PASSWORD</b></div>
-                    <input type="password" placeholder="Enter Password" name="pass" id="pass" required>
-                </div>
-                <div class="current-buttons">
-
-                    <div class="row text-center">
-                        <div class="col text-center">
-                            <button type="button" class="btn btn-danger pull-down" id="submit">Submit</button>
-                            <a id="sign-up" href="create_acc.html"><button type="button" class="btn btn-danger" id="sign-up">Sign Up</button></a>
-                        </div>
-                    </div>
-                </div>
-    
+        
+        <form action="action_page.php" method="post">
+            <div class="imgcontainer">
+              <img src="img_avatar2.png" alt="Avatar" class="avatar">
             </div>
-
-        </div>
-
+          
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+          
+              <button type="submit">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+            </div>
+          
+            <div class="containertwo" style="background-color:#f1f1f1">
+              <button class="cancelbtn"><a href="create_acc.html">Sign Up!</a></button>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+          </form>
     </body>
 </html>
